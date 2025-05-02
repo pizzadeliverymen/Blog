@@ -1,0 +1,1 @@
+This is my programming blog (thats slang for web log)

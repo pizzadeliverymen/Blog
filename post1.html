@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Post Update</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="https://github.com/pizzadeliverymen">
+            GitHub
+        </a>
+        <a href="https://code.vt.edu/peders">
+            GitLab
+        </a>
+        <a href="https://www.linkedin.com/in/schroepn">
+            LinkedIn
+        </a>
+        <a href="https://www.peders.me">
+            Website
+        </a>
+    </header>
+    <main>
+        <div class="heading">
+            <h5><a href="index.html">Link To Main Page</a></h5>
+            <h1 class="post-title">First Blog Post</h1>
+            <h3 class="post-subtitle">I got busy and forgot to update</h3>
+        </div>
+        <div class="blog-posting">
+        <div class="blog-posting-date">
+            <p>Posted on: May 18th, 2025</p>
+        </div>
+            <p>
+                So what's been going on recently in my Software Development journey?
+            </p>
+            <p>
+                Firstly, I fixed a few (many) things wrong with the <a href="https://BigBookstore.peders.me">BigBookstore</a>,
+                as it turns out I had forked an older version on accident when I moved it to aws hosting.
+            </p>
+            <p>
+                Notable Updates:
+                <ul>
+                    <li>
+                        Fixed backend management of "purchases" (previously the frontend always assumed nothing went wrong)
+                    </li>
+                    <li>
+                        Added button to autofill personal info with dummy data for testing.  It's still there in the live
+                        version as the website is used as a proof of concept instead of an actual bookstore, and it's
+                        reasonable that someone testing my website wouldn't trust personal info/credit card management.
+                        &lpar;TODO: remove errors after pressing autofill button&rpar;
+                    </li>
+                    <li>
+                        Fixed some minor css issues, including removing unused css files and adding more transitions.
+                    </li>
+                </ul>
+            </p>
+            <p>
+                I've also been learning Flutter, as I saw a few job postings that required it.
+            </p>
+            <p>
+                So I made a quick <a href="https://github.com/pizzadeliverymen/BasicFlutterApp">flutter project</a> or
+                <a href="https://github.com/pizzadeliverymen/RecipeSite">two</a>.  So far (and I'm pretty early on in
+                learning) the most difficult thing seems to be making layouts look pretty, and even then a quick google
+                search showed that I could convert Figma to a Flutter layout, which may be my next step.  (Side Note: I haven't
+                decided which flutter project to continue or if I would make an entirely new project).
+            </p>
+            <p>
+                I've also been thinking, and realized that most of my projects fall under web (or mobile) development, and
+                I should probably try to create a more standalone project.  Unfortunately, I am kinda bad at ideas, so 
+                when I think of something, I will probably just make a new post about it. (and maybe update this post as well).
+            </p>
+            <p>
+                I'm kind of leaning towards a game, but I'm not sure if I want to use a full game engine or something like pygame 
+                (which I guess is still technically  game engine) or if I should just do gui elements.  That does raise a point though,
+                in that I've never worked with python GUI before, so maybe I should try that out first.  I could make a simple quiz game
+                to test it out and go from there.  And the first result on google mentioned tkinter, so that's where I'll start.
+            </p>
+            <p>
+                Hopefully I update this blog soon with a complete quiz game, but for now, 
+                <a href="https://github.com/pizzadeliverymen/pyquiz">here's the repo</a>!
+            </p>
+        </div>
+    </main>
+</body>
+</html>

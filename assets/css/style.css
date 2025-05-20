@@ -15,6 +15,7 @@ main {
     background-color: white;
     min-height: 100vh;
     padding: 0 5rem;
+    min-width: 60%
 }
 
 @media (width < 800px) {
@@ -43,7 +44,7 @@ p {
     margin-right: auto;
 }
 
-ul {
+ul, ol {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
